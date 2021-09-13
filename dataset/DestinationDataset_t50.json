@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_t50",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_BANDATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "themes.csv.gz",
+				"folderPath": "ustdata",
+				"fileSystem": "container1"
+			},
+			"compressionCodec": "gzip"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

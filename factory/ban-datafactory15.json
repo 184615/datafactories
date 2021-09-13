@@ -1,0 +1,9 @@
+{
+	"name": "ban-datafactory15",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "390d7133-3b1d-4a9d-9daa-58836cf623fa",
+		"tenantId": "a4431f4b-c207-4733-9530-34c08a9b2b8d"
+	}
+}
